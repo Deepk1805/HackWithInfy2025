@@ -1,14 +1,9 @@
 import java.util.*;
 
-class Problem2_FractionalKnapsack {
-    static class Item {
-        int value, weight;
+ 
 
-        Item(int v, int w) {
-            value = v;
-            weight = w;
-        }
-    }
+class Problem2_FractionalKnapsack {
+   
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -39,5 +34,16 @@ class Problem2_FractionalKnapsack {
         }
 
         System.out.printf("Maximum value: %.2f\n", totalValue);
+        s.close();
     }
+
+    static class Item {
+        int value, weight;
+
+        Item(int v, int w) {
+            value = v;
+            weight = w;
+        }
+    }
+
 }

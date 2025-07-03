@@ -41,5 +41,6 @@ public class Problem1_ActivitySelection {
 
         // Output
         System.out.println("Maximum number of non-overlapping activities: " + count);
+        sc.close();
     }
 }
