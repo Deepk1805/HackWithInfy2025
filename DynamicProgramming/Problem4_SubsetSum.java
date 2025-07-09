@@ -1,5 +1,5 @@
 import java.util.*;
-public class Problem10_SubsetSum {
+public class Problem4_SubsetSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

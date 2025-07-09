@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem8_MinimumCoinChange {
+public class Problem2_MinimumCoinChange {
     public static int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
         for (int i = 1; i <= amount; i++) {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Problem7_FibonacciSeries {
+class Problem1_FibonacciSeries {
     public int nthFibonacci(int n) {
         if (n <= 1) {
             return n;
@@ -20,7 +20,7 @@ class Problem7_FibonacciSeries {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        Problem7_FibonacciSeries sol = new Problem7_FibonacciSeries();
+        Problem1_FibonacciSeries sol = new Problem1_FibonacciSeries();
         System.out.println(sol.nthFibonacci(n));
         sc.close();
     }
